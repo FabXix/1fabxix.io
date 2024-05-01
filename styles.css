@@ -1,0 +1,235 @@
+/* Resetear márgenes y rellenos en todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('font.gif');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+a {
+    display: contents;
+    padding: 15px;
+    margin: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+a:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Estilo específico para la imagen enlazada ligeramente arriba del botón de Playlist */
+.enlaceImagen {
+    display: contents;
+    text-align: center;
+    margin-bottom: 0;
+    line-height: 0;
+}
+
+.imagenPequena {
+    width: 50px;
+    height: auto;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+/* Estilo específico para la imagen de "Carta.png" */
+.enlaceImagenCarta {
+    display: contents;
+    text-align: center;
+    margin-bottom: 0;
+    line-height: 0;
+}
+
+.imagenPequenaCarta {
+    width: 70px; /* Ajusta este valor según tus preferencias */
+    height: auto;
+    border-radius: 8px;
+    display: inline-block;
+}
+/* Resto del código... */
+
+/* Estilo específico para la imagen de "Juego.png" */
+.enlaceImagenJuego {
+    display: contents;
+    text-align: center;
+    margin-bottom: 0;
+    line-height: 0;
+}
+
+.imagenPequenaJuego {
+    width: 70px; /* Ajusta este valor según tus preferencias */
+    height: auto;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+/* Resto del código... */
+/* Resto del código... */
+
+/* Estilo específico para la imagen de "Fotos.png" */
+.enlaceImagenFotos {
+    display: contents;
+    text-align: center;
+    margin-bottom: 0;
+    line-height: 0;
+}
+
+.imagenPequenaFotos {
+    width: 53px; /* Ajusta este valor según tus preferencias */
+    height: auto;
+    
+    border-radius: 8px;
+    display: inline-block;
+}
+
+/* Resto del código... */
+/* Estilos para la página de Playlist */
+
+.playlist-contenedor {
+    text-align: center;
+    padding: 20px;
+}
+
+.playlist-contenedor h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #201717;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para el botón de Volver */
+.volver-btn {
+    display: contents;
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.volver-btn:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* Resto del código... */
+
+/* Estilos para la página de Playlist */
+
+.playlist-contenedor {
+    text-align: center;
+    padding: 20px;
+}
+
+.playlist-contenedor h1 {
+    font-size: 36px; /* Tamaño del título aumentado */
+    margin-bottom: 20px;
+    color: #ffeded; /* Color del texto cambiado a blanco */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Sombra en el texto */
+}
+
+.playlist-contenedor p {
+    font-size: 18px; /* Tamaño del párrafo */
+    margin-bottom: 20px;
+    color: #201717; /* Color del texto cambiado a un tono más claro */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    font-size: 30px; /* Tamaño de la fuente para las canciones */
+    margin-bottom: 15px;
+    color: #ffffff; /* Color del texto de las canciones */
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+
+/* Estilos para el botón de Volver */
+.volver-btn {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.volver-btn:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* Estilo específico para la imagen de "Carta.png" */
+.imagenPequenaCarta {
+    width: 200px; /* Ajusta este valor según tus preferencias */
+    height: auto;
+    border-left: 80px;
+    display: inline-block;
+    margin-right: 20px; /* Ajusta el margen entre las imágenes */
+}
+
+/* Estilo específico para la imagen de "Juego.png" */
+.imagenPequenaJuego {
+    width: 250px; /* Ajusta este valor según tus preferencias */
+    height: auto;
+    border-radius: 8px;
+    display: inline-block;
+    margin-right: 20px; /* Ajusta el margen entre las imágenes */
+}
+
+/* Estilo específico para la imagen de "Fotos.png" */
+.imagenPequenaFotos {
+    width: 200px; /* Ajusta este valor según tus preferencias */
+    height: auto;
+    border-radius: 8px;
+    display: inline-block;
+    margin-right: 20px; /* Ajusta el margen entre las imágenes */
+}
+.imagenPequena {
+    width: 150px; /* Ajusta este valor según tus preferencias */
+    height: auto;
+    border-radius: 8px;
+    display: inline-block;
+    margin-right: 20px; /* Ajusta el margen entre las imágenes */
+}
+/* Resto del código... */
+
+/* Estilo específico para la página de Fotos */
+
